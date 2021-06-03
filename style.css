@@ -1,0 +1,51 @@
+h1,h3{
+    text-align: center;
+}
+#subtitle{
+    text-align: center;
+}
+#img-caption{
+    text-align: center;
+}
+#tribute-info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+#image{
+    display: block;
+    max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+    border: 5px solid #E6B239
+}
+ul li::marker{
+    color: #EF84E4;
+    font-size: 1.5em;
+}
+main{
+    background-image: linear-gradient(#EFEF4C,#42f11f);
+    border-radius: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+#title{
+    color: #3EE338;
+}
+#subtitle{
+    color:#EC91D1;
+}
+.quote{
+   text-align: center;
+    background-color: #e5f7f6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5%;
+}
+@media only screen and (max-width:580px){
+    #image{
+        width:100%;
+    }
+}
